@@ -10,12 +10,14 @@ export default function AddToCartDetails() {
 				{dress.map((dress) => (
 					<div key={dress.id} className="bg-white shadow rounded p-10">
 						<img src={dress.image} alt={dress.description} className="w-64 h-72" />
-						<div className="">
-							<h2 className="text-lg font-semibold">{dress.name}</h2>
-							<p className="text-sm">Price: ₦{dress.price}</p>
+						<div className="my-3">
+							<h2 className="text-lg font-semibold text-blue-400">{dress.name}</h2>
+							<p className="text-sm text-blue-400">Price: ₦{dress.price}</p>
 						</div>
 
 						<HoverStar />
+
+						<div className="border rounded-full w-[50%] mt-3 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer">Add to cart</div>
 					</div>
 				))}
 			</div>

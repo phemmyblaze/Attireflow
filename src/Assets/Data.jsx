@@ -63,6 +63,18 @@ const dress = [
 		name: "Women’s Stylish Ankara",
 		price: 1200,
 	},
+	{
+		id: 1,
+		image: house,
+		name: "Women’s Stylish Ankara",
+		price: 1200,
+	},
+	{
+		id: 1,
+		image: house,
+		name: "Women’s Stylish Ankara",
+		price: 1200,
+	},
 ];
 
 export default dress;

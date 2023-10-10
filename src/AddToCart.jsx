@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BackgroundImage from "./Assets/ankara.png";
 import { faCaretDown, faCaretRight, faList } from "@fortawesome/free-solid-svg-icons";
 import CartDetails from "./AddToCartDetails";
+import Footer from "./Footer";
+
 export default function Hero() {
 	return (
 		<>
@@ -49,6 +51,7 @@ export default function Hero() {
 				</div>
 			</div>
 			<CartDetails />
+			<Footer />
 		</>
 	);
 }
