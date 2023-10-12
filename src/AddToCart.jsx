@@ -3,10 +3,12 @@ import BackgroundImage from "./Assets/ankara.png";
 import { faCaretDown, faCaretRight, faList } from "@fortawesome/free-solid-svg-icons";
 import CartDetails from "./AddToCartDetails";
 import Footer from "./Footer";
+import NavBar from "./NavBar";
 
 export default function Hero() {
 	return (
 		<>
+			<NavBar />
 			<div
 				className="w-full h-48"
 				style={{
