@@ -8,7 +8,7 @@ export default function CheckOut() {
 	return (
 		<>
 			<NavBar />
-			<div className="flex justify-between items-center m-5">
+			<div className="flex justify-evenly m-10">
 				<div className="flex flex-col gap-5">
 					<ReviewItem />
 					<DeliveryInfo />
