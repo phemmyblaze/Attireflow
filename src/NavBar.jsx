@@ -18,7 +18,7 @@ export default function NavBar() {
 	}
 
 	return (
-		<div className="flex justify-between items-center px-8 mt-5">
+		<div className="flex justify-between items-center px-8 mt-5 absolute w-full top-0 bg-inherit">
 			<div>
 				<div className="text-2xl text-blue-700 font-bold uppercase">Great Attire</div>
 			</div>

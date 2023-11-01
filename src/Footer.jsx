@@ -30,7 +30,7 @@ export default function Footer() {
 	};
 	return (
 		<>
-			<div className="bg-blue-700 p-20 mt-5 flex justify-between">
+			<div className="bg-blue-700 px-8 py-8 flex justify-between flex-col md:flex-row gap-10 md:gap-0 ">
 				<div className="">
 					<div className="text-white uppercase font-extrabold text-3xl mb-4">
 						<h2>Great Attire</h2>

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.img {
+    background: url('../src/Assets/ankara.png') no-repeat;
+    background-size: cover;
+
+}
+
+.crimson, h1 {
+    font-family: 'Crimson Pro', serif;
+}
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+  
