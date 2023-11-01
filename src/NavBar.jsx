@@ -22,7 +22,7 @@ export default function NavBar() {
 			<div>
 				<div className="text-2xl text-blue-700 font-bold uppercase">Great Attire</div>
 			</div>
-			<div className="flex justify-between items-center gap-7 ">
+			<div className="justify-between hidden md:block items-center gap-7 ">
 				{links.map((link) => (
 					<a href={link.link} className="text-blue-700 hover:text-green-700 font-bold">
 						{link.name}
