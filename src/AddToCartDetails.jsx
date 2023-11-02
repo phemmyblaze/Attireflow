@@ -6,9 +6,9 @@ export default function AddToCartDetails() {
 		<>
 			<h2 className="text-center text-blue-600 uppercase text-lg font-bold">All Stylist Attire For You</h2>
 
-			<div className="grid grid-cols-4 p-6 gap-10 ">
+			<div className="grid lg:grid-cols-4 md:grid-cols-2  p-6 gap-10 ">
 				{dress.map((dress) => (
-					<div key={dress.id} className="bg-white shadow rounded p-10">
+					<div key={dress.id} className="bg-white shadow rounded p-10 mx-auto">
 						<img src={dress.image} alt={dress.description} className="w-64 h-72" />
 						<div className="my-3">
 							<h2 className="text-lg font-semibold text-blue-400">{dress.name}</h2>

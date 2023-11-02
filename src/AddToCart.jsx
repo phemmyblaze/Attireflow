@@ -10,45 +10,45 @@ export default function Hero() {
 		<>
 			<NavBar />
 			<div
-				className="w-full h-48"
+				className="w-full h-full"
 				style={{
 					backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(${BackgroundImage})`,
 				}}
 			>
 				<div className="mt-24">
-					<h2 className="text-blue-700 px-6 py-8 text-3xl font-extrabold w-[30%]">Grab Up To 40% Discount On Purchase</h2>
+					<h2 className="text-blue-700 px-6 py-8 text-3xl font-extrabold w-[60%] md:w-[30%]">Grab Up To 40% Discount On Purchase</h2>
 				</div>
 			</div>
 
-			<div className="flex justify-between items-center m-8 text-blue-800">
+			<div className="flex md:justify-between justify-center flex-col md:flex-row  items-start md:items-center my-8 mx-4 text-blue-800">
 				<div className="flex justify-between items-center gap-8">
 					<div className="flex items-center gap-2">
-						<FontAwesomeIcon icon={faList} />
-						<p>Category</p>
+						<FontAwesomeIcon className="text-sm md:text-base" icon={faList} />
+						<p className="text-sm md:text-base">Category</p>
 					</div>
 					<div className="flex items-center gap-2">
-						<p>Women</p>
-						<FontAwesomeIcon icon={faCaretDown} />
-					</div>
-
-					<div className="flex items-center gap-2">
-						<FontAwesomeIcon icon={faList} />
-						<p>Filter By</p>
+						<p className="text-sm md:text-base">Women</p>
+						<FontAwesomeIcon className="text-sm md:text-base" icon={faCaretDown} />
 					</div>
 
 					<div className="flex items-center gap-2">
-						<p>Size</p>
-						<FontAwesomeIcon icon={faCaretRight} />
+						<FontAwesomeIcon className="text-sm md:text-base" icon={faList} />
+						<p className="text-sm md:text-base">Filter By</p>
+					</div>
+
+					<div className="flex items-center gap-2">
+						<p className="text-sm md:text-base">Size</p>
+						<FontAwesomeIcon className="text-sm md:text-base" icon={faCaretRight} />
 					</div>
 					<div className="flex items-center gap-2">
-						<p>Price</p>
-						<FontAwesomeIcon icon={faCaretRight} />
+						<p className="text-sm md:text-base">Price</p>
+						<FontAwesomeIcon className="text-sm md:text-base" icon={faCaretRight} />
 					</div>
 				</div>
 				<div className="flex justify-between">
 					<div className="flex items-center gap-2">
-						<p>Sort by</p>
-						<FontAwesomeIcon icon={faCaretDown} />
+						<p className="text-sm md:text-base">Sort by</p>
+						<FontAwesomeIcon className="text-sm md:text-base" icon={faCaretDown} />
 					</div>
 				</div>
 			</div>

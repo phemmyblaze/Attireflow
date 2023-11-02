@@ -5,7 +5,7 @@ const About = () => {
     <div className="px-8 mb-10">
       <div>
         <div>
-          <h1 className="text-[#085CB2] text-[50px] text-center ">Who We Are and What We Stand For</h1>
+          <h1 className="text-[#085CB2] md:text-[50px] text-[30px] text-center ">Who We Are and What We Stand For</h1>
           <div className="text-[#2F8CED] text-[18px] flex flex-col gap-8">
             <p >
               At Native Attire Store, we are passionate about celebrating

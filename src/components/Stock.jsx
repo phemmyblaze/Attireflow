@@ -5,8 +5,8 @@ import Star from '../Assets/star.svg'
 import EmptyStar from '../Assets/empty.svg'
 const Stock = () => {
   return (
-    <div className=' gap-5  items-center justify-center mt-5'>
-        <h1 className='md:text-[48px] text-[24px] leading-normal text-[#085CB2] text-center'>Several unique attires are new in stock</h1>
+    <div className='flex flex-col gap-10  items-center justify-center mt-5'>
+        <h1 className='md:text-[48px] text-[30px] leading-normal text-[#085CB2] text-center'>Several unique attires are new in stock</h1>
         <div className={`flex flex-wrap gap-10 items-center justify-center`}>
             {
                 attires.map((item, index) => {

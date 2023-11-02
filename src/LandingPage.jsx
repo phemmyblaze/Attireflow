@@ -11,11 +11,10 @@ import About from "./components/About";
 export default function LandingPage() {
 	return (
 		<div className="w-full">
-			<NavBar />
 			<div>
-			<div className="mt-[5rem] img  px-8 h-full py-6 w-full">
-				
-				<Hero />
+			<div className="img h-full py-6 w-full">
+			<NavBar />
+			<Hero />
 			</div>
 			<div className="mx-auto max-w-screen-xl h-full ">
 			<Explore />
@@ -24,9 +23,7 @@ export default function LandingPage() {
 			<DemoCarousel />
 			<About />
 			</div>
-
 			</div>
-
 			<Footer />
 			
 		</div>

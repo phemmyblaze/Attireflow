@@ -4,7 +4,7 @@ import Visa from "../Assets/visa.png";
 export default function OrderSum() {
 	return (
 		<>
-			<div className="border-2 rounded-md border-blue-400 px-5 py-5 w-[30%] text-blue-400">
+			<div className="border-2 rounded-md border-blue-400 px-5 py-5 md:w-[40%] text-blue-400">
 				<div className="text-center text-2xl font-bold text-blue-400">
 					<h2>Order Summary</h2>
 				</div>

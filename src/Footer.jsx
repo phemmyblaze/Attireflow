@@ -80,8 +80,8 @@ export default function Footer() {
 						<h2>Get in Touch</h2>
 					</div>
 					<form className="flex" onSubmit={handleSubmit}>
-						<input type="email" className="border rounded px-6 py-3 bg-transparent focus:outline-none focus:border-blue-500" placeholder="Enter email" value={email} onChange={handleEmailChange} />
-						<button className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300">Subscribe</button>
+						<input type="email" className="border px-6 py-3 bg-transparent focus:outline-none focus:border-blue-500" placeholder="Enter email" value={email} onChange={handleEmailChange} />
+						<button className="bg-white text-blue-700 px-6 py-2  hover:bg-blue-600 hover:text-white focus:outline-none focus:ring focus:border-blue-300">Subscribe</button>
 					</form>
 				</div>
 			</div>
